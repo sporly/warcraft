@@ -1,0 +1,114 @@
+
+a{
+	text-decoration: none;
+}
+body,p,form,input,button,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,div{margin:0;padding:0;list-style:none;box-sizing: border-box;}
+.clearfix:after{display:block;content:".";height:0;visibility:hidden;clear:both;font-size:0;line-height:0;}
+.clearfix{*zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.phone_index {
+	width: 100%;
+	max-width: 980px;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+	color:#333;
+	background: #fff;
+}
+body{
+	font-family: Microsoft YaHei;
+	background:#f0f0f0 ;
+}
+
+/*下载页面 S*/
+
+.warcraft-content{
+	width:100%;
+	height:auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.warcraft-content li{
+	width:100%;
+	font-size: 0;	
+}
+.warcraft-content li img{
+	width:100%;
+	height:auto;
+}
+.warcraft-bottom{
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-bottom: 1.0rem;
+	background: url(../img/img5.jpg) repeat-y;
+	background-size: 100% auto;
+}
+.warcraft-bottom a{
+	display: block;
+}
+.warcraft-bottom img{
+	width: 100%;
+	height: auto;
+}
+.warcraft-bottom p{
+	margin-top: .06rem;
+	font-size: .22rem;
+	color: #9b7c53;
+	text-align: center;
+}
+.regular{
+	margin-top:.6rem;
+}
+.regular .title{
+	width: 100%;
+	margin-bottom: .18rem;
+	line-height: .6rem;
+	color: #c59f4e;
+	font-size: .3rem;
+	text-align: center;
+	border:.02rem #9b7c53 solid;
+	-webkit-border-radius: .08rem;
+	cursor: pointer;
+}
+.regular .angle-icon{
+	width: .37rem;
+	height: .37rem;
+	display: inline-block;
+	margin-left: .46rem;
+	background: url(../img/angle.png) no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+.regular .down{
+	background: url(../img/angle2.png) no-repeat;
+	background-size: contain;
+}
+.regular p{
+	position: relative;
+	line-height: .3rem;
+	padding-left: .18rem;
+	font-size: .22rem;
+	color: #9b7c53;
+	text-align: left;
+}
+.order-icon{
+	position: absolute;
+	top:.04rem;
+	left:-0.12rem;
+	width: .24rem;
+	height: .24rem;
+	line-height: .24rem;
+	display: block;
+	background: #9b7c53;
+	color: #000;
+	-webkit-border-radius: 50%;
+	text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes" />设置viewport，适应移动设备的显示宽度-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes"/><!--隐藏safari导航栏及工具栏-->
+		<meta property="qc:admins" content="13666753740606375" />
+		<meta property="wb:webmaster" content="02d1e0af77e62d70" />
+		<title>钱富宝下载</title>
+		<link href="css/css.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+	</head>
+	<body>
+	<div class="phone_index">
+		<div class="warcraft-content">
+			<ul class="warcraft-top">
+				<li><img src="img/img1.jpg"></li>
+				<li><img src="img/img2.jpg"></li>
+				<li><img src="img/img3.jpg"></li>
+				<li><img src="img/img4.jpg"></li>
+			</ul>
+			<div class="warcraft-bottom">
+				<a href="#" class="lie-btn"><img src="img/btn.png"/></a>
+				<p>还有机会赢取《魔兽世界》电影票、马克杯等丰富奖品</p>
+				<div class="regular">
+					<h3 class="title">活动规则<span class="angle-icon"></span></h3>
+					<div class="content">
+						<p><span class="order-icon">1</span>活动时间：2016年4月21日-2016年5月5日。</p>
+						<p><span class="order-icon">2</span>首购专享礼为首购客户专享，首购客户指已注册或未注册财富宝的首次投资客户，即从未在财富宝认购过定期或活期产品的客户。</p>
+						<p><span class="order-icon">3</span>在活动期间，首次在平安财富宝申请全场任意理财产品即可享受10天10%的补贴收益，包括活期产品活期盈、大额盈，定期产品员工鑫、财富添、财富盈、金牛、任月盈、安盈、安心赚，单人补贴收益封顶1000元。</p>
+						<p><span class="order-icon">4</span>申请活期理财产品申请本金需在平台留存10天（不含）以上，就可享受10天10%补贴收益。</p>
+				    </div>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+	</div>
+
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="js/wjs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		
+		function doChangeURL(){
+			window.location.href= "prefs:root=General&path=ManagedConfigurationList ";
+		}
+
+		//
+		new function() {
+			var _self = this;
+			_self.width = 640;
+			_self.fontSize = 100;
+			_self.widthProportion = function() {
+				var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+				return p > 1 ? 1 : p < 0.5 ? 0.5 : p;
+			};
+			_self.changePage = function() {
+				document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+			}
+			_self.changePage();
+			window.addEventListener('resize', function() {
+				_self.changePage();
+			}, false);
+		};
+        $(function(){
+        	$('.regular .title').click(function(){
+        		$('.angle-icon').toggleClass('down');
+        		$('.regular .content').toggle();
+        	});
+        })
+        
+	</script>
+</html>
